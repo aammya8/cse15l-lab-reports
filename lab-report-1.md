@@ -4,7 +4,7 @@ Tutorial for incoming 15L students on how to log into a course-specific account 
 
 ---
 
-**STEP 1: INSTALLING 😗🤌VISUAL STUDIO CODE😗🤌**
+**STEP 1:  INSTALLING 😗🤌VISUAL STUDIO CODE😗🤌**
 
 Go to the Visual Studio Code [website](https://code.visualstudio.com/) and download VS Code. VS Code works with macOS, Windows, and Linux (if you don't have one of those you should not be trying to do this right now 🗿). The download button in the center of the website is for your computer's OS. If you want to download VS Code for another OS, click the down arrow to the right of the download button for more options. Once the download is complete, open the installer and follow the instructions to finish installing VS Code on your device. If you have a Mac, make sure to move Visual Studio Code from the Downloads folder to the Applications folder. When you open VS Code it should look like this:
 
@@ -14,12 +14,12 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
      
      
 
-**STEP 2: REMOTELY 👉👈CONNECTING👉👈**
+**STEP 2:  REMOTELY 👉👈CONNECTING👉👈**
 
-**STEP 3: TRYING SOME 🗣COMMANDS🗣**
+**STEP 3:  TRYING SOME 🗣COMMANDS🗣**
 
-**STEP 4: 🛫MOVING🛩 FILES WITH** ✨`scp`✨
+**STEP 4:  🛫MOVING🛩 FILES WITH** ✨`scp`✨
 
-**STEP 5: SETTING AN SSH 🔑KEY🔑🏦**
+**STEP 5:  SETTING AN SSH 🔑KEY🔑🏦**
 
-**STEP 6: 💰OPTIMIZING💰 REMOTE RUNNING**
+**STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**
