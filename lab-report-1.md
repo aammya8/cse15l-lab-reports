@@ -4,4 +4,4 @@ Tutorial for incoming 15L students about how to log into a course-specific accou
 
 ---
 
-**STEP 1: INSTALLING VISUAL STUDIO CODE**
+**STEP 1: INSTALLING ✨VISUAL STUDIO CODE✨**
