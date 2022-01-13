@@ -24,7 +24,7 @@ repeat:
 
 *Real Potato Specimen!!:*
 
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcxJPKBECUtV3WFKoPAZcnlboRV-1go1WnHbklsC3D2oSa7NbYTXETZtgZ9bp89KtOOdc&usqp=CAU)
+![Image](https://www.wtrf.com/wp-content/uploads/sites/25/2021/02/GettyImages-140847680.jpg?strip=1)
 
 
 1. One Potato
