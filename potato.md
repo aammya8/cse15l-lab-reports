@@ -5,7 +5,7 @@ p o t a t o e s
 
 # Potatoes are very nice.
 `System.out.println(Hello Potato.)`
-* 🥔  🥔  🥔
+* 🥔   🥔  🥔
 * 🥔🥔🥔  🥔
 * 🥔  🥔  🥔
 
