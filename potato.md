@@ -22,9 +22,9 @@ repeat:
 
 **Here. Learn about potatoes.** [Potato Enlightenment](https://www.mainepotatoes.com/all-about-potatoes/)
 
-*Raw Potatoes!!*
+*Real Potato Specimen!!:*
 
-![Image](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F02%2F25%2FGettyImages-1224918845-2000.jpg)
+![Image](https://static.wikia.nocookie.net/disney/images/5/55/Profile_-_Mr._Potato_Head.jpeg/revision/latest?cb=20190313050826)
 
 
 1. One Potato
