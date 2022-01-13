@@ -8,4 +8,4 @@ Tutorial for incoming 15L students on how to log into a course-specific account 
 
 text
 
-![Image](https://doraemon127.github.io/cse15l-lab-reports/report1-images/img1-vscode.html)
+![Image](/cse15l-lab-reports/docs/assets/report1-images/img1-vscode.png)
