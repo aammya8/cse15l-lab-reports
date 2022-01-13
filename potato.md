@@ -5,9 +5,9 @@ p o t a t o e s
 
 # Potatoes are very nice.
 `System.out.println(Hello Potato.)`
-* 🥔   🥔  🥔
-* 🥔🥔🥔  🥔
-* 🥔  🥔  🥔
+* 🥔ensp🥔ensp🥔
+* 🥔🥔🥔ensp🥔
+* 🥔ensp🥔ensp🥔
 
 ## I really like potatoes. Now you will like potatoes too.
 
