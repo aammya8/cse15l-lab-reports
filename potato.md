@@ -3,9 +3,9 @@ p o t a t o e s
 ---
 
 
-## Potatoes are very nice.
+# Potatoes are very nice.
 🥔🥔🥔
-# I really like potatoes.
+## I really like potatoes.
 🥔🥔🥔🥔🥔
 ## Now you will like potatoes too.
 🥔🥔🥔🥔🥔
