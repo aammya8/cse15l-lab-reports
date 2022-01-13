@@ -24,7 +24,7 @@ repeat:
 
 *Real Potato Specimen!!:*
 
-![Image](https://static.wikia.nocookie.net/disney/images/5/55/Profile_-_Mr._Potato_Head.jpeg/revision/latest?cb=20190313050826)
+![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcxJPKBECUtV3WFKoPAZcnlboRV-1go1WnHbklsC3D2oSa7NbYTXETZtgZ9bp89KtOOdc&usqp=CAU)
 
 
 1. One Potato
