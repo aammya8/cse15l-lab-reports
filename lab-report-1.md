@@ -5,3 +5,7 @@ Tutorial for incoming 15L students on how to log into a course-specific account 
 ---
 
 **STEP 1: INSTALLING ✨VISUAL STUDIO CODE✨**
+
+text
+
+![Image](https://doraemon127.github.io/cse15l-lab-reports/report1-images/img1-vscode.html)
