@@ -4,6 +4,7 @@ p o t a t o e s
 
 
 # Potatoes are very nice.
+`System.out.println(Hello Potato.)`
 *    🥔🥔    🥔🥔
 *   🥔🥔🥔  🥔🥔🥔
 *  🥔🥔🥔🥔🥔🥔🥔🥔
@@ -29,10 +30,8 @@ repeat:
 **Here. Learn about potatoes.** [Link](https://www.mainepotatoes.com/all-about-potatoes/)
 
 *So many potatoes!!*
-`System.out.prtinln(Hello Potato.)`
 
 ![Image](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F02%2F25%2FGettyImages-1224918845-2000.jpg)
-
 
 
 1. One Potato
@@ -40,4 +39,4 @@ repeat:
 3. Three Potatos
 4. Many Potatoes
 
-> What is a blockquote???
+> Find the hidden potato emoji for a prize ( ͡Ⓘ ͜ʖ ͡Ⓘ)
