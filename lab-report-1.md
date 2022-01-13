@@ -13,7 +13,7 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
      
      
 
-**STEP 2:  REMOTELY 👉👈CONNECTING👉👈**
+**STEP 2:  REMOTELY 👉👈CONNECTING👉👈**      
 UCSD CSE courses use course-specific accounts SSH accounts. You can look up your account username [here](https://sdacs.ucsd.edu/~icc/index.php). The password is your UCSD SSO password. UCSD passwords do need to be reset at the beginning of each quarter, so make sure to reset your password at the highly-responsive, user-friendly global password reset site 🛩💣💥 (which is linked on the account lookup page once you find your username).    
 
 If you are a Windows user, you will need to [install OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are a macOS or Linux user, you can ignore this step.
