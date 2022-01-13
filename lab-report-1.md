@@ -18,7 +18,7 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
 
 **STEP 3: TRYING SOME 🗣COMMANDS🗣**
 
-**STEP 4: 🛫MOVING🛩 FILES WITH ✨`scp`✨**
+**STEP 4: 🛫MOVING🛩 FILES WITH** ✨`scp`✨
 
 **STEP 5: SETTING AN SSH 🔑KEY🔑🏦**
 
