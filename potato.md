@@ -5,9 +5,9 @@ p o t a t o e s
 
 # Potatoes are very nice.
 `System.out.println(Hello Potato.)`
-* 🥔..........🥔.....🥔
+* 🥔.........🥔.....🥔
 * 🥔🥔🥔🥔.....🥔
-* 🥔..........🥔.....🥔
+* 🥔.........🥔.....🥔
 
 ## I really like potatoes. Now you will like potatoes too.
 
@@ -20,9 +20,9 @@ repeat:
 'Amen.'
 ```
 
-**Here. Learn about potatoes.** [Link](https://www.mainepotatoes.com/all-about-potatoes/)
+**Here. Learn about potatoes.** [Potato Enlightenment](https://www.mainepotatoes.com/all-about-potatoes/)
 
-*So many potatoes!!*
+*Raw Potatoes!!*
 
 ![Image](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F02%2F25%2FGettyImages-1224918845-2000.jpg)
 
