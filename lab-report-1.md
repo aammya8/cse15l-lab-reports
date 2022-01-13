@@ -10,5 +10,5 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
 
 ![Image](https://github.com/doraemon127/cse15l-lab-reports/blob/main/docs/assets/report1-images/img1-vscode.png)
 
-![Image](https://github.com/doraemon127/cse15l-lab-reports/docs/assets/report1-images/img1-vscode.png)
+
 **STEP 2: INSTALLING ✨VISUAL STUDIO CODE✨**
