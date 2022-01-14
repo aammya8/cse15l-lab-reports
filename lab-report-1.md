@@ -97,6 +97,7 @@ It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_
 
 There are some shortcuts that can make running commands on both the remote computer and local computer faster:   
 * When typing in a the name of a file or directory, press the 'tab' key to complete the name of the file
-* Use the upward arrow key on your keyboard to browse previous commands.
-* You can write a linux command in double quotes at the end of an ssh command to run it on the remote server directly after connecting.
-* You can use semicolons to write and run more than one command on the same line. 🚨If you are trying to run multiple commands on the SERVER at the end of an ssh command, you need to put ALL the commands inside the DOUBLE QUOTES.🚨 If you only put the first command in double quotes then only the first command will run on the remote computer and all successive commands will run on the client (local computer).
+* Use the upward arrow key on your keyboard to browse previous commands. 
+* You can use semicolons to write more than one command on the same line in terminal. 
+* You can write a command in double quotes at the end of an ssh command to run it on the remote server directly. See below how you are no longer logged into the server after the commands execute.
+* 🚨If you are trying to run multiple commands on the SERVER at the end of an ssh command, you need to put ALL the commands inside the DOUBLE QUOTES.🚨 If you only put the first command in double quotes then only the first command will run on the remote computer and all successive commands will run on the client (local computer).
