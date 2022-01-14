@@ -20,9 +20,9 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
 
 **PART 2:  REMOTELY 👉👈CONNECTING👉👈**      
 
-UCSD CSE courses use course-specific accounts SSH accounts. You can look up your account username [here](https://sdacs.ucsd.edu/~icc/index.php). The password is your UCSD SSO password. UCSD passwords do need to be reset at the beginning of each quarter, so make sure to reset your password at the highly-responsive, user-friendly global password reset site 🛩💣💥 (which is linked on the account lookup page once you find your username).    
+UCSD CSE courses use course-specific accounts SSH accounts. Look up your account username [here](https://sdacs.ucsd.edu/~icc/index.php). The password is your UCSD SSO password. UCSD passwords need to be reset at the beginning of each quarter, so make sure to reset your password at the highly-responsive, user-friendly global password reset site 🛩💣💥 (which is linked on the account lookup page once you find your username).    
 
-If you are a Windows user, you will need to [install OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are a macOS or Linux user, you don't need to download any additional software. Now, open a terminal in Visual Studio Code and enter the following command, with your CSE15L account name replacing USERNAME:      
+If you are a Windows user, you need to [install OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are a macOS or Linux user, you don't need to download any additional software. Now, open a terminal in Visual Studio Code and enter the following command, with your CSE15L account name replacing USERNAME:      
  
 
 `$ ssh USERNAME@ieng6.ucsd.edu`   
@@ -38,7 +38,7 @@ If this is your first time remotely connecting to this server, you will get a me
 
 **PART 3:  TRYING SOME 🗣COMMANDS🗣**      
 
-Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using Linux or a macOS, you can also try the linux commands on your own device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands. 
+Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using device with Linux or a macOS, you can also try the linux commands on your local device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands. 
 
 ![Image](https://user-images.githubusercontent.com/79061216/149579843-ce8bddcb-133e-42c8-bafd-5017dfcec48d.png)    
 
@@ -77,7 +77,7 @@ class WhereAmI {
 
 **PART 5:  SETTING AN SSH 🔑KEY🔑🏦**      
 
-To log in to the remote computer without typing in your password every time, you can create an SSH key. How SSH keys work is a program called `ssh-keygen` creates a pair of 2 files—a public key and a private key. After generating these keys, you copy the public key to the server and keep the private key on the client. Then, the `ssh` command can pair the private and public keys and use that instead of your password.    
+To log in to the remote computer without typing in your password every time, you can create an SSH key. How SSH keys work is a program called `ssh-keygen` creates a pair of 2 files: a public key and a private key. After generating these keys, you copy the public key to the server and keep the private key on the client. Then, the `ssh` command can pair the private and public keys and use that instead of your password.    
 
 On the client (your local computer), enter the following command in terminal:      
  
