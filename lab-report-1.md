@@ -42,11 +42,40 @@ If this is your first time remotely connecting to this server, you will get a me
 
 Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using Linux or a macOS, you can also try the linux commands on your own device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands. 
 
-![Image] 
+![Image](https://user-images.githubusercontent.com/79061216/149579843-ce8bddcb-133e-42c8-bafd-5017dfcec48d.png)    
+
+![Image](https://user-images.githubusercontent.com/79061216/149579938-e1e77a12-6127-4929-835b-cad64f4671b4.png)     
+>`System.out.println("End of Step 3.");`  
+ 
+<br/><br/>
+
 
 **STEP 4:  🛫MOVING🛩 FILES WITH** ✨`scp`✨      
 
-To copy one or more files from your local computer to the remote computer, you can use the `scp` command.
+To copy one or more files from your local computer to the remote computer, you can use the `scp` command, with the file you want to copy in place of FILENAME.FILE_EXTENSION, and your CSE15L account username in place of USERNAME:      
+ 
+
+`ssh FILENAME.FILE_EXTENSION USERNAME@ieng6.ucsd.edu:~/`   
+ 
+ 
+Below an example is shown with a file called WhereAmI.java, that prints out properties about the currently connected computer. Note that if you try to copy over a file that already exists in the server, this command will overwrite it. Also note that the scp command does NOT log you into the remote computer. You must use the ssh command to do this.
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+``` 
+
+![Image](https://user-images.githubusercontent.com/79061216/149579673-fd107e53-bc28-41c1-92bd-aa039beeaf8c.png)     
+>`System.out.println("End of Step 4.");`  
+ 
+<br/><br/>
+
 
 **STEP 5:  SETTING AN SSH 🔑KEY🔑🏦**      
 
@@ -58,7 +87,13 @@ On the client (your local computer), enter the following command in terminal:
 `$ ssh-keygen`   
  
  
-It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_LOCATION)". Here, type the SUGGESTED_FILE_LOCATION into the terminal and press enter. Then it will ask you to enter a passphrase for your SSH key if you want one. 🚨DO NOT MAKE A PASSPRHASE,, JUST PRESS THE ENTER KEY🙇‍♀️🚨 If you have a passphrase for your SSH key, then when trying to ssh later, you won't need to enter your password, but you WILL need to enter a passphrase (defeating the entire purpose of setting an SSH key so that you can connect without a password 🗿). Press enter again when it asks you to confirm your passphrase and then your SSH key has been set. To try logging in using your key, type in the ssh command into the terminal.
+It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_LOCATION)". Here, type the SUGGESTED_FILE_LOCATION into the terminal and press enter. Then it will ask you to enter a passphrase for your SSH key if you want one. 🚨DO NOT MAKE A PASSPRHASE,, JUST PRESS THE ENTER KEY🙇‍♀️🚨 If you have a passphrase for your SSH key, then when trying to ssh later, you won't need to enter your password, but you WILL need to enter a passphrase (defeating the entire purpose of setting an SSH key so that you can connect without a password 🗿). Press enter again when it asks you to confirm your passphrase and then your SSH key has been set. To try logging in using your key, type in the ssh command into the terminal. 
+
+![Image](https://user-images.githubusercontent.com/79061216/149578458-7bd71d7e-5bb2-4622-80b2-c9a21346a947.png)     
+>`System.out.println("End of Step 5.");`  
+ 
+<br/><br/>
+
 
 **STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**      
 
