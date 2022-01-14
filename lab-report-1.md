@@ -4,7 +4,7 @@
  
 >`System.out.println("Take 1.🎬")`    
 
-\( ͡❛ ₒ ͡❛)/
+\\( ͡❛ ₒ ͡❛)/
    
 **STEP 1:  INSTALLING 😗🤌VISUAL STUDIO CODE😗🤌**
 
