@@ -50,7 +50,15 @@ To copy one or more files from your local computer to the remote computer, you c
 
 **STEP 5:  SETTING AN SSH 🔑KEY🔑🏦**      
 
-To log in to the remote computer without typing in your password every time, you can create an SSH key. 
+To log in to the remote computer without typing in your password every time, you can create an SSH key. How SSH keys work is a program called ssh-keygen creates a pair of 2 files—a public key and a private key. Once generating these keys, you copy the public key to the server and keep the private key on the client. Then, the ssh command can pair the private and public keys and use that instead of your password.    
+
+On the client (your local computer), enter the following command in terminal:      
+ 
+
+`$ ssh-keygen`   
+ 
+ 
+It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_LOCATION)". Here, type the SUGGESTED_FILE_LOCATION into the terminal and press enter. Then it will ask you to enter a passphrase for your SSH key if you want one. 🚨DO NOT MAKE A PASSPRHASE,, JUST PRESS THE ENTER KEY🙇‍♀️🚨 If you have a passphrase for your SSH key, then when trying to ssh later, you won't need to enter your password, but you WILL need to enter a passphrase (defeating the entire purpose of setting an SSH key so that you can connect without a password 🗿). Press enter again when it asks you to confirm your passphrase and then your SSH key has been set. To try logging in using your key, type in the ssh command into the terminal.
 
 **STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**      
 
