@@ -109,5 +109,5 @@ There are some shortcuts that can make running commands on both the remote compu
  
 >`System.out.println("Cut.🎬")`    
 
-\\\( ͡❛ ₒ ͡❛)// <br/><br/>
+\\( ͡❛ ₒ ͡❛)/ <br/><br/>
  
