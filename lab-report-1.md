@@ -19,12 +19,15 @@ UCSD CSE courses use course-specific accounts SSH accounts. You can look up your
 
 If you are a Windows user, you will need to [install OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are a macOS or Linux user, you don't need to download any additional software. Now, open a terminal in Visual Studio Code and enter the following command, with your CSE15L account name replacing USERNAME:     
 `$ ssh USERNAME@ieng6.ucsd.edu`   
-If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. Now you are connected to the server.
+If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. Now you are connected to the server. Once logged in, your terminal should look something like this:    
+![Image](https://user-images.githubusercontent.com/79061216/149567297-544c1900-8ef7-4356-a30e-70833c283526.png)
 
 
 **STEP 3:  TRYING SOME 🗣COMMANDS🗣**      
 
-Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using Linux or a macOS, you can also try the linux commands on your own device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands.  
+Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using Linux or a macOS, you can also try the linux commands on your own device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands. 
+
+![Image] 
 
 **STEP 4:  🛫MOVING🛩 FILES WITH** ✨`scp`✨      
 
@@ -36,4 +39,8 @@ To log in to the remote computer without typing in your password every time, you
 
 **STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**      
 
-There are some shortcuts that can make running commands on both the remote computer and local computer faster. 
+There are some shortcuts that can make running commands on both the remote computer and local computer faster:   
+* When typing in a the name of a file or directory, press the 'tab' key to complete the name of the file
+* Use the upward arrow key on your keyboard to browse previous commands.
+* You can write a linux command in double quotes at the end of an ssh command to run it on the remote server directly after connecting.
+* You can use semicolons to write and run more than one command on the same line. 🚨If you are trying to run multiple commands on the SERVER at the end of an ssh command, you need to put ALL the commands inside the DOUBLE QUOTES.🚨 If you only put the first command in double quotes then only the first command will run on the remote computer and all successive commands will run on the client (local computer).
