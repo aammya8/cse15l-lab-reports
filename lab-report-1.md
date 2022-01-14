@@ -31,7 +31,8 @@ If you are a Windows user, you will need to [install OpenSHH](https://docs.micro
 `$ ssh USERNAME@ieng6.ucsd.edu`   
  
  
-If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. Now you are connected to the server. Once logged in, your terminal should look something like this:    
+If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. Now you are connected to the server. Once logged in, your terminal should look something like this:
+
 ![Image](https://user-images.githubusercontent.com/79061216/149567297-544c1900-8ef7-4356-a30e-70833c283526.png)     
 `System.out.println("End of Step 2.");`  
  
