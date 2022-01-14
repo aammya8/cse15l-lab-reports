@@ -113,5 +113,5 @@ There are some shortcuts that can make running commands on both the remote compu
 
 >`System.out.println("Follow instructions. No more takes please x_x.")`
 
-( ͡* ͜ʖ ͡*) <br/><br/>
+( ͡⊗ ͜ʖ ͡⊗) <br/><br/>
  
