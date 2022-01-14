@@ -1,9 +1,7 @@
 # cse15l-lab-reports
 
-* Lab reports for CSE15L - Software Tools and Techniques
-* Experiementing with GitHub Pages
-
-<br/><br/>
+* *Lab reports for CSE15L - Software Tools and Techniques*
+* *Experiementing with GitHub Pages <br/><br/>*
 **TOOLS:**
 
 * Insert images into GitHub Pages website: https://ardalis.com/add-images-easily-to-github/
