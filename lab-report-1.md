@@ -107,7 +107,11 @@ There are some shortcuts that can make running commands on both the remote compu
  
 <br/><br/>    
  
->`System.out.println("Cut.🎬")`    
+>`System.out.println("🎬 End Take 1.")`    
 
-\\( ͡╥ ͜ʖ ͡╥)/ <br/><br/>
+\\( ͡╥ ͜ʖ ͡╥)/ 
+
+>`System.out.println("No more takes please x_x.")`
+
+( ͡* ͜ʖ ͡*) <br/><br/>
  
