@@ -19,13 +19,21 @@ UCSD CSE courses use course-specific accounts SSH accounts. You can look up your
 
 If you are a Windows user, you will need to [install OpenSHH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are a macOS or Linux user, you don't need to download any additional software. Now, open a terminal in Visual Studio Code and enter the following command, with your CSE15L account name replacing USERNAME:     
 `$ ssh USERNAME@ieng6.ucsd.edu`   
-If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. 
+If this is your first time remotely connecting to this server, you will get a message asking if you trust the host and want to continue connecting. Respond to the prompt with `yes` and hit the return key. Finally, enter your UCSD SSO password when prompted for a password. Now you are connected to the server.
 
 
-**STEP 3:  TRYING SOME 🗣COMMANDS🗣**
+**STEP 3:  TRYING SOME 🗣COMMANDS🗣**      
 
-**STEP 4:  🛫MOVING🛩 FILES WITH** ✨`scp`✨
+Once connected to the server, you can try out come linux commands. A list of common commands can be found [here](https://linuxconfig.org/linux-commands-cheat-sheet). If you are using Linux or a macOS, you can also try the linux commands on your own device (the client). To do this, first disconnect from the server by typing `exit` into the terminal and pressing enter. Then test out the commands.  
 
-**STEP 5:  SETTING AN SSH 🔑KEY🔑🏦**
+**STEP 4:  🛫MOVING🛩 FILES WITH** ✨`scp`✨      
 
-**STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**
+To copy one or more files from your local computer to the remote computer, you can use the `scp` command.
+
+**STEP 5:  SETTING AN SSH 🔑KEY🔑🏦**      
+
+To log in to the remote computer without typing in your password every time, you can create an SSH key. 
+
+**STEP 6:  💰OPTIMIZING💰 REMOTE RUNNING**      
+
+There are some shortcuts that can make running commands on both the remote computer and local computer faster. 
