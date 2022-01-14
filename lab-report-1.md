@@ -10,7 +10,7 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
     
-    > System.out.println(very nice job.)   
+    > System.out.println("very nice job.")   
     
 
      
