@@ -1,6 +1,6 @@
 
 ## Lab Report 1: Remote Access 🚗 💨💨💨 
-Tutorial for incoming 15L students on how to log into a course-specific account on ieng6.
+Tutorial for incoming 15L students on how to log into a course-specific account on ieng6. SSH stands for Secure Shell and it is a network protocol that lets two computers communicate and transfer data/information securely.
 
 ---
 
@@ -10,7 +10,9 @@ Go to the Visual Studio Code [website](https://code.visualstudio.com/) and downl
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
     
-    > System.out.println("very nice job.")   
+    > System.out.println("very nice job.")    
+     
+     
     
 
      
