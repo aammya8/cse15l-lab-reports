@@ -56,7 +56,7 @@ To copy one or more files from your local computer to the remote computer, you c
 `ssh FILENAME.FILE_EXTENSION USERNAME@ieng6.ucsd.edu:~/`   
  
  
-Below an example is shown with a file called WhereAmI.java, that prints out properties about the currently connected computer. Note that if you try to copy over a file that already exists in the server, this command will overwrite it. Also note that the scp command does NOT log you into the remote computer. You must use the ssh command to do this.
+Below an example is shown with a file called WhereAmI.java, that prints out properties about the currently connected computer. Note that if you try to copy over a file that already exists in the server, this command will overwrite it. Also note that the `scp` command does NOT log you into the remote computer. You must use the `ssh` command to do this.
 
 ```
 class WhereAmI {
@@ -77,7 +77,7 @@ class WhereAmI {
 
 **PART 5:  SETTING AN SSH 🔑KEY🔑🏦**      
 
-To log in to the remote computer without typing in your password every time, you can create an SSH key. How SSH keys work is a program called ssh-keygen creates a pair of 2 files—a public key and a private key. Once generating these keys, you copy the public key to the server and keep the private key on the client. Then, the ssh command can pair the private and public keys and use that instead of your password.    
+To log in to the remote computer without typing in your password every time, you can create an SSH key. How SSH keys work is a program called `ssh-keygen` creates a pair of 2 files—a public key and a private key. After generating these keys, you copy the public key to the server and keep the private key on the client. Then, the `ssh` command can pair the private and public keys and use that instead of your password.    
 
 On the client (your local computer), enter the following command in terminal:      
  
@@ -85,7 +85,7 @@ On the client (your local computer), enter the following command in terminal:
 `$ ssh-keygen`   
  
  
-It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_LOCATION)". Here, type the SUGGESTED_FILE_LOCATION into the terminal and press enter. Then it will ask you to enter a passphrase for your SSH key if you want one. 🚨DO NOT MAKE A PASSPRHASE,, JUST PRESS THE ENTER KEY🙇‍♀️🚨 If you have a passphrase for your SSH key, then when trying to ssh later, you won't need to enter your password, but you WILL need to enter a passphrase (defeating the entire purpose of setting an SSH key so that you can connect without a password 🗿). Press enter again when it asks you to confirm your passphrase and then your SSH key has been set. To try logging in using your key, type in the ssh command into the terminal. 
+It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_LOCATION)". Here, type the SUGGESTED_FILE_LOCATION into the terminal and press enter. Then it will ask you to enter a passphrase for your SSH key if you want one. 🚨DO NOT MAKE A PASSPRHASE,, JUST PRESS THE ENTER KEY🙇‍♀️🚨 If you have a passphrase for your SSH key, then when trying to `ssh` later, you won't need to enter your password, but you WILL need to enter a passphrase (defeating the entire purpose of setting an SSH key so that you can connect without a password 🗿). Press enter again when it asks you to confirm your passphrase and then your SSH key has been set. To try logging in using your key, type in the `ssh` command into the terminal. 
 
 ![Image](https://user-images.githubusercontent.com/79061216/149578458-7bd71d7e-5bb2-4622-80b2-c9a21346a947.png)     
 >`System.out.println("End of Part 5.");`  
@@ -97,10 +97,10 @@ It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_
 
 There are some shortcuts that can make running commands on both the remote computer and local computer faster:   
 * When typing in a the name of a file or directory, press the 'tab' key to complete the name of the file
-* Use the upward arrow key on your keyboard to browse previous commands. 
+* Use the upward arrow key on your keyboard to browse/use previous commands. 
 * You can use semicolons to write more than one command on the same line in terminal. 
-* You can write a command in double quotes at the end of an ssh command to run it on the remote server directly. See below how you are no longer logged into the server after the commands execute.
-* 🚨If you are trying to run multiple commands on the SERVER at the end of an ssh command, you need to put ALL the commands inside the DOUBLE QUOTES.🚨 If you only put the first command in double quotes then only the first command will run on the remote computer and all successive commands will run on the client (local computer). 
+* You can write a command in double quotes at the end of an `ssh` command to run it on the remote server directly. See below how you are no longer logged into the server after the commands execute.
+* 🚨If you are trying to run multiple commands on the SERVER at the end of an `ssh` command, you need to put ALL the commands inside the DOUBLE QUOTES.🚨 If you only put the first command in double quotes then only the first command will run on the remote computer and all successive commands will run on the client (local computer). 
 
 ![Image](https://user-images.githubusercontent.com/79061216/149581115-653e0559-5e1b-4606-a944-4eb464cfbf1b.png)     
 >`System.out.println("End of Part 6.");`  
