@@ -105,3 +105,9 @@ There are some shortcuts that can make running commands on both the remote compu
 ![Image](https://user-images.githubusercontent.com/79061216/149581115-653e0559-5e1b-4606-a944-4eb464cfbf1b.png)     
 >`System.out.println("End of Part 6.");`  
  
+<br/><br/>    
+ 
+>`System.out.println("Cut.🎬")`    
+
+\\( ͡❛ ₒ ͡❛)/ <br/><br/>
+ 
