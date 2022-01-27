@@ -96,7 +96,10 @@ It will then prompt you to "Enter file in which to save the key (SUGGESTED_FILE_
 **PART 6:  💰OPTIMIZING💰 REMOTE RUNNING**      
 
 There are some shortcuts that can make running commands on both the remote computer and local computer faster:   
-* When typing in a the name of a file or directory, press the 'tab' key to complete the name of the file
+* When typing in a the name of a file or directory, press the 'tab' key to complete the name of the file.
+* See the image below for an example. First, to type in and run `javac WhereAmI.java`, it only requires 14 keystrokes. Type in `javac W` then press `tab` and it will become `javac WhereAmI.`. Finally, type in `java` to finish typing `javac WhereAmI.java` and press `enter`. Without using this shortcut, the total number of keystrokes would be 20. Note than the `tab` key does not fully autocomplete `WhereAmI.java` since there is also a file called `WhereAmI.class` in this same directory. The `tab` autcomplete fills in the greatest number of characters possible. So, if we had tried to type `javac test.java`, it would have autompleted to that if we had just typed `javac t` and then `tab` since there's no other files starting with `t` in this directory.
+
+![Image](https://user-images.githubusercontent.com/79061216/151431582-450b2b35-03dc-465e-9213-a4ef8883ab2f.png)
 * Use the upward arrow key on your keyboard to browse/use previous commands. 
 * You can use semicolons to write more than one command on the same line in terminal. 
 * You can write a command in double quotes at the end of an `ssh` command to run it on the remote server directly. See below how you are no longer logged into the server after the commands execute.
