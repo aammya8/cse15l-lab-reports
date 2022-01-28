@@ -1,6 +1,7 @@
 
 ## Lab Report 2: Debugging 💣💥❌🦟🪳🐜🦟🪳🐜❌💥💣 
-*Debugging the markdown-parse program.*  
+*Debugging the markdown-parse program.*     
+*For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the cahnge, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).  
  
 >`System.out.println("Take 1. aCtiON 🎬")`    
 
@@ -9,12 +10,53 @@
 **CHANGE #1:  DEALING WITH FAKES PT.1 []()**
 
 *Description of bug,symptom, and improvement*:   
-Symptom of that failure-inducing input:
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
-Screenshot of changes made in commit:
+
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
->`System.out.println("End of Change #1.");`  
+>`System.out.println("End of Change #1 Description.");`  
  
 <br/><br/>
+
+
+**CHANGE #1:  DEALING WITH FAKES PT.1 []()**
+
+*Description of relationship between bug,symptom, and failure-inducing input*:   
+
+![Image]()     
+
+
+![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
+>`System.out.println("End of Change #1 Description.");`  
+ 
+<br/><br/>
+
+
+
+**CHANGE #2:  DEALING WITH FAKES PT.2 []()**
+
+*Description of bug,symptom, and improvement*:   
+
+![Image]()     
+
+
+![Image]()     
+>`System.out.println("End of Change #2 Description.");`  
+ 
+<br/><br/>
+
+
+
+**CHANGE #3:  DEALING WITH FAKES PT.3 []()**
+
+*Description of bug,symptom, and improvement*:   
+
+![Image]()     
+
+
+![Image]()     
+>`System.out.println("End of Change #3 Description.");`  
+ 
+<br/><br/>
+
