@@ -2,7 +2,7 @@
 ## Lab Report 2: Debugging 💣💥❌🦟🪳🐜🦟🪳🐜❌💥💣 
 *Debugging the markdown-parse program.*   
 
-*For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the cahnge, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).*  
+*For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the change, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).*  
  
 >`System.out.println("Attack of the Bugs — Take 1: aCtiON 🎬")`    
 
@@ -98,7 +98,52 @@ After making this change, the last file to cause a failure-inducing input was [t
 ![Image](https://user-images.githubusercontent.com/79061216/151633311-09174e7d-8868-4252-87ec-ee21ee174367.png)     
 >`System.out.println("End of Change #4 Description.");`  
  
-<br/><br/><br/>    
+<br/><br/><br/><br/>
+
+
+
+**[FINAL CODE](https://github.com/doraemon127/markdown-parse/blob/main/MarkdownParse.java) LeSs BUg-Y🪳**   
+```
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+
+public class MarkdownParse {
+    public static ArrayList<String> getLinks(String markdown) {
+    
+        ArrayList<String> toReturn = new ArrayList<>();
+
+        // find the next [, then find the ], then find the (, then take up to
+        // the next )
+        int currentIndex = 0;
+        while(currentIndex < markdown.length()) {
+            String remaining = markdown.substring(currentIndex, markdown.length());
+	    
+            if (remaining.contains("]") && remaining.contains("](") &&
+                remaining.contains(")") && remaining.contains(".")) {
+                    int start = markdown.indexOf("](", currentIndex);
+                    int end = markdown.indexOf(")", start);
+                    toReturn.add(markdown.substring(start + 2, end));
+                    currentIndex = end + 1;
+            }
+            else {
+                currentIndex = markdown.length();
+            }
+            System.out.println(currentIndex); //print currentIndex
+        }
+        return toReturn;
+    }
+    public static void main(String[] args) throws IOException {
+        Path fileName = Path.of(args[0]);
+        String contents = Files.readString(fileName);
+        ArrayList<String> links = getLinks(contents);
+        System.out.println(links);
+    }
+}
+```
+<br/><br/><br/><br/>
+
  
 >`System.out.println("🎬 End Take 1. Destroy el bugs.🗡🔫")`    
 
