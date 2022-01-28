@@ -8,7 +8,7 @@
    
 **CHANGE #1:  DEALING WITH FAKES PT.1 []()**
 
-Description of *bug,symptom, and improvement*:
+*Description of bug,symptom, and improvement*:   
 Start typing here.:
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
