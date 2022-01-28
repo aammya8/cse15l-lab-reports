@@ -8,7 +8,7 @@
 
 \\( ͡❛ ₒ ͡❛)/ <br/><br/>
 
-**ORIGINAL CODE [SOURCE](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/MarkdownParse.java)**   
+**ORIGINAL CODE ([SOURCE](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/MarkdownParse.java))**   
 ```
 import java.io.IOException;
 import java.nio.file.Files;
@@ -37,8 +37,10 @@ public class MarkdownParse {
         ArrayList<String> links = getLinks(contents);
         System.out.println(links);
     }
-}
-``` <br/><br/>
+}   
+
+```
+<br/><br/>
 
    
 **CHANGE #1**
