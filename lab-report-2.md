@@ -85,6 +85,20 @@ After making this change, the next file to cause a failure-inducing input was [t
 >`System.out.println("End of Change #3 Description.");`  
  
 <br/><br/>    
+
+
+**✨BONUS✨CHANGE #4**
+
+*Description of bug,symptom, and improvement*:    
+After making this change, the last file to cause a failure-inducing input was [test-file8.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file8.md). As seen in the first screenshot below of terminal output, the program incorrectly identifies "a link on the first line" as a link. Looking at the previous code (after Change #3), we can see that this is because the code simply identifies any text in the format [](text) as a link. The program currently has no method of confirming whether the text inside the parentheses is a real link. Something that all links have is a ".", so we can add a period to the if-statement. This, of course, is not a fool proof check of whether or not the text inside the parentheses is a link, but it is a start. For a more thorough check, we can add conditions into the if-statement to check if the text contains a domain-name (such as ".com", ".html") and so on. The code has been modified to BEGIN to fix the issue of confirming whether the text REALLY is a link, as seen in the screenshot of the GitHub [commit](https://github.com/doraemon127/markdown-parse/commit/e02a32092dea04ab07e3c74f85aff96a781e3d9d) below.    
+
+![Image](https://user-images.githubusercontent.com/79061216/151632403-99ae952f-55a3-4cc2-a4fa-98ed39cb28b6.png)     
+
+
+![Image](https://user-images.githubusercontent.com/79061216/151633311-09174e7d-8868-4252-87ec-ee21ee174367.png)     
+>`System.out.println("End of Change #3 Description.");`  
+ 
+<br/><br/>    
  
 >`System.out.println("🎬 End Take 1. Destroy el bugs.🗡🔫")`    
 
