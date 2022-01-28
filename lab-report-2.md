@@ -69,7 +69,7 @@ After making this change, the next file to cause a failure-inducing input was [t
 ![Image](https://user-images.githubusercontent.com/79061216/151630015-e2ae221e-14cc-4398-841c-c1e7fa8da2cb.png)     
 >`System.out.println("End of Change #2 Description.");`  
  
-<br/><br/>
+<br/><br/><br/>
 
 
 
@@ -84,7 +84,7 @@ After making this change, the next file to cause a failure-inducing input was [t
 ![Image](https://user-images.githubusercontent.com/79061216/151632099-03a9ac5a-499b-405c-b67f-ce8b4112d105.png)     
 >`System.out.println("End of Change #3 Description.");`  
  
-<br/><br/>    
+<br/><br/><br/>    
 
 
 **✨BONUS✨CHANGE #4**
@@ -98,7 +98,7 @@ After making this change, the last file to cause a failure-inducing input was [t
 ![Image](https://user-images.githubusercontent.com/79061216/151633311-09174e7d-8868-4252-87ec-ee21ee174367.png)     
 >`System.out.println("End of Change #4 Description.");`  
  
-<br/><br/>    
+<br/><br/><br/>    
  
 >`System.out.println("🎬 End Take 1. Destroy el bugs.🗡🔫")`    
 
