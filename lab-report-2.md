@@ -10,7 +10,8 @@
    
 **CHANGE #1**
 
-*Description of bug,symptom, and improvement*: The first test file to cause a failure-inducing input was [test-file2.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file2.md). In the getLinks method in MarkdownParse.java, a print statement to print  currentIndex was added at the end of the while loop. As seen in the image below, running the program on test-file2.md led to an infinte loop.   
+*Description of bug,symptom, and improvement*:    
+The first test file to cause a failure-inducing input was [test-file2.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file2.md). In the getLinks method in MarkdownParse.java, a print statement to print  currentIndex was added at the end of the while loop. As seen in the image below, running the program on test-file2.md led to an infinte loop.   
 
 ![Image]()     
 
