@@ -45,7 +45,7 @@ public class MarkdownParse {
 **CHANGE #1**
 
 *Description of bug,symptom, and improvement*:    
-The first test file to cause a failure-inducing input was [test-file2.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file2.md). In the getLinks method in MarkdownParse.java, a print statement to print  currentIndex was added at the end of the while loop. As seen in the first image below, running the program on test-file2.md led to an infinte loop. If we look at the original code (above), we can see that the value of currentIndex never increases after the last close parentheses ")" in the file. However, to exit the loop, currentIndex has to become >= the length of the file. Therefore, if a ")" is not the last character in the file, there will be an issue of an infinite loop. To fix this issue, the original code has been surrounded by an if-else statement (see second image below for screenshot of changes made in GitHub [commit](https://github.com/doraemon127/markdown-parse/commit/dc56311921a1fca13324f7803f466df738f52edf)).
+The first test file to cause a failure-inducing input was [test-file2.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file2.md). (Note: In the getLinks method in MarkdownParse.java, a print statement to print currentIndex was added at the end of the while loop to check infinite loops). As seen in the first image below, running the program on test-file2.md led to an infinte loop. If we look at the original code (above), we can see that the value of currentIndex never increases after the last close parentheses ")" in the file. However, to exit the loop, currentIndex has to become >= the length of the file. Therefore, if a ")" is not the last character in the file, there will be an issue of an infinite loop. To fix this issue, the original code has been surrounded by an if-else statement (see second image below for screenshot of changes made in GitHub [commit](https://github.com/doraemon127/markdown-parse/commit/dc56311921a1fca13324f7803f466df738f52edf)).
 
 ![Image](https://user-images.githubusercontent.com/79061216/151627499-16484e42-0464-4b4c-a40b-e53890455bb6.png)     
 
@@ -60,9 +60,10 @@ The first test file to cause a failure-inducing input was [test-file2.md](https:
 
 **CHANGE #2**
 
-*Description of bug,symptom, and improvement*:   
+*Description of bug,symptom, and improvement*:    
+After making this change, the next file to cause a failure-inducing input was [test-file5.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file5.md). As seen in the first image of terminal output below, the program incorrectly identified "page.com" as a link.  
 
-![Image]()     
+![Image](https://user-images.githubusercontent.com/79061216/151628258-02a96232-8646-4246-95ba-7f5d71238844.png)     
 
 
 ![Image]()     
