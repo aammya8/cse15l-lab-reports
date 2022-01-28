@@ -1,7 +1,8 @@
 
 ## Lab Report 2: Debugging 💣💥❌🦟🪳🐜🦟🪳🐜❌💥💣 
-*Debugging the markdown-parse program.*     
-*For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the cahnge, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).  
+*Debugging the markdown-parse program.*   
+
+*For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the cahnge, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).*  
  
 >`System.out.println("Take 1. aCtiON 🎬")`    
 
