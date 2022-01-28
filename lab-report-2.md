@@ -6,6 +6,6 @@
 
 \\( ͡❛ ₒ ͡❛)/ <br/><br/>
    
-**CHANGE 1:  DEALING WITH FAKES PT.1 []()**
+**CHANGE #1:  DEALING WITH FAKES PT.1 []()**
 
 Start typing here.
