@@ -8,7 +8,7 @@
 
 \\( ͡❛ ₒ ͡❛)/ <br/><br/>
    
-**CHANGE #1:  DEALING WITH FAKES PT.1 []()**
+**CHANGE #1**
 
 *Description of bug,symptom, and improvement*:   
 
@@ -23,7 +23,7 @@
 
 
 
-**CHANGE #2:  DEALING WITH FAKES PT.2 []()**
+**CHANGE #2**
 
 *Description of bug,symptom, and improvement*:   
 
@@ -37,7 +37,7 @@
 
 
 
-**CHANGE #3:  DEALING WITH FAKES PT.3 []()**
+**CHANGE #3**
 
 *Description of bug,symptom, and improvement*:   
 
