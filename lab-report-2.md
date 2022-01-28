@@ -6,7 +6,7 @@
  
 >`System.out.println("Attack of the Bugs — Take 1: aCtiON 🎬")`    
 
-\\( ͡❛ ₒ ͡❛)/ <br/><br/>
+\\( ͡❛ ₒ ͡❛)/ <br/><br/><br/>
 
 **[ORIGINAL CODE](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/MarkdownParse.java) veRY BUg-Y🦟🦟🦟**   
 ```
