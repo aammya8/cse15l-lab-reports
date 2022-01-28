@@ -75,9 +75,10 @@ After making this change, the next file to cause a failure-inducing input was [t
 
 **CHANGE #3**
 
-*Description of bug,symptom, and improvement*:   
+*Description of bug,symptom, and improvement*:    
+After making this change, the next file to cause a failure-inducing input was [test-file6.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file6.md). As seen in the first screenshot below of terminal output, the program incorrectly identifies the opening parentheses "(" as part of the link.   
 
-![Image]()     
+![Image](https://user-images.githubusercontent.com/79061216/151630700-4c0c27ee-6869-4942-8d31-4e040d8dc76e.png)     
 
 
 ![Image]()     
