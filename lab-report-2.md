@@ -110,13 +110,12 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class MarkdownParse {
+
     public static ArrayList<String> getLinks(String markdown) {
-    
         ArrayList<String> toReturn = new ArrayList<>();
         int currentIndex = 0;
         while(currentIndex < markdown.length()) {
             String remaining = markdown.substring(currentIndex, markdown.length());
-	    
             if (remaining.contains("]") && remaining.contains("](") &&
                 remaining.contains(")") && remaining.contains(".")) {
                     int start = markdown.indexOf("](", currentIndex);
@@ -127,16 +126,17 @@ public class MarkdownParse {
             else {
                 currentIndex = markdown.length();
             }
-            System.out.println(currentIndex); //print currentIndex
         }
         return toReturn;
     }
+    
     public static void main(String[] args) throws IOException {
         Path fileName = Path.of(args[0]);
         String contents = Files.readString(fileName);
         ArrayList<String> links = getLinks(contents);
         System.out.println(links);
     }
+    
 }
 ```
 <br/><br/>
