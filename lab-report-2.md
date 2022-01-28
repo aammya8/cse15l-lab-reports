@@ -76,12 +76,12 @@ After making this change, the next file to cause a failure-inducing input was [t
 **CHANGE #3**
 
 *Description of bug,symptom, and improvement*:    
-After making this change, the next file to cause a failure-inducing input was [test-file6.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file6.md). As seen in the first screenshot below of terminal output, the program incorrectly identifies the opening parentheses "(" as part of the link.   
+After making this change, the next file to cause a failure-inducing input was [test-file6.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file6.md). As seen in the first screenshot below of terminal output, the program incorrectly identifies the opening parentheses "(" as part of the link. Looking at the previous code (after Change #2), we can see that in the line `toReturn.add(markdown.substring(start + 1, end));`, instead of adding `1` to `start`, we should not be adding `2`, since the line `int start = markdown.indexOf("](", currentIndex);` makes `start` equal to the index of the "]". The code has been modified to fix this issue, as seen in the screenshot of the GitHub [commit](https://github.com/doraemon127/markdown-parse/commit/4c5971d9addbb3f2058af2da4dccfe2f44f1d88e) below.    
 
 ![Image](https://user-images.githubusercontent.com/79061216/151630700-4c0c27ee-6869-4942-8d31-4e040d8dc76e.png)     
 
 
-![Image]()     
+![Image](https://user-images.githubusercontent.com/79061216/151632099-03a9ac5a-499b-405c-b67f-ce8b4112d105.png)     
 >`System.out.println("End of Change #3 Description.");`  
  
 <br/><br/>    
