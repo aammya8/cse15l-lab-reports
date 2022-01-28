@@ -61,12 +61,12 @@ The first test file to cause a failure-inducing input was [test-file2.md](https:
 **CHANGE #2**
 
 *Description of bug,symptom, and improvement*:    
-After making this change, the next file to cause a failure-inducing input was [test-file5.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file5.md). As seen in the first image of terminal output below, the program incorrectly identified "page.com" as a link.  
+After making this change, the next file to cause a failure-inducing input was [test-file5.md](https://github.com/doraemon127/markdown-parse/blob/main/test-file5.md). As seen in the first image of terminal output below, the program incorrectly identified "page.com" as a link. Now let's look at the code to understand why this is happening. As we can see, the line `int openParen = markdown.indexOf("(", nextCloseBracket);` does not take into consideration the possibility of there being text between the closing bracket "]" and the opening parentheses "(". To address this issue, the code has been modified as seen in the screenshot of the GitHub [commit](https://github.com/doraemon127/markdown-parse/commit/7faabceaf8ebf6a42e154772228fe6b7ac3217f1) below.
 
 ![Image](https://user-images.githubusercontent.com/79061216/151628258-02a96232-8646-4246-95ba-7f5d71238844.png)     
 
 
-![Image]()     
+![Image](https://user-images.githubusercontent.com/79061216/151630015-e2ae221e-14cc-4398-841c-c1e7fa8da2cb.png)     
 >`System.out.println("End of Change #2 Description.");`  
  
 <br/><br/>
