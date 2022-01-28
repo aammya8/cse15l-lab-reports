@@ -11,26 +11,14 @@
 
 *Description of bug,symptom, and improvement*:   
 
-![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
-
-
-![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
->`System.out.println("End of Change #1 Description.");`  
- 
-<br/><br/>
-
-
-**CHANGE #1:  DEALING WITH FAKES PT.1 []()**
-
-*Description of relationship between bug,symptom, and failure-inducing input*:   
-
 ![Image]()     
 
 
-![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
+![Image]()     
 >`System.out.println("End of Change #1 Description.");`  
  
 <br/><br/>
+
 
 
 
