@@ -85,7 +85,7 @@ After making this change, the next file to cause a failure-inducing input was [t
  
 <br/><br/>    
  
->`System.out.println("🎬 End Take 1. Destroy el bugs.")`    
+>`System.out.println("🎬 End Take 1. Destroy el bugs.🗡🔫")`    
 
 \\( ͡╥ ͜ʖ ͡╥)/ 
 
