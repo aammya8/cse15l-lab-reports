@@ -4,7 +4,7 @@
 
 *For each change described below, you will find a link to the test-file for a failure-inducing input that prompted the cahnge, a screenshot of the terminal output of running the file demonstrating the symptom of the failure-inducing input, and a screenshot of the the GitHub commit (showing the changes made).*  
  
->`System.out.println("Take 1. aCtiON 🎬")`    
+>`System.out.println("Attack of the Bugs — Take 1 — aCtiON 🎬")`    
 
 \\( ͡❛ ₒ ͡❛)/ <br/><br/>
    
@@ -47,5 +47,15 @@
 ![Image]()     
 >`System.out.println("End of Change #3 Description.");`  
  
-<br/><br/>
+<br/><br/>    
+ 
+>`System.out.println("🎬 End Take 1. Destroy el bugs.")`    
+
+\\( ͡╥ ͜ʖ ͡╥)/ 
+
+>`System.out.println("Eliminate the bugs x_x.")`
+
+( ͡⊗ ͜ʖ ͡⊗) <br/><br/>
+ 
+
 
