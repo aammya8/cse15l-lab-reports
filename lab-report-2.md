@@ -11,7 +11,7 @@
 *Description of bug,symptom, and improvement*:   
 Symptom of that failure-inducing input:
 
-![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)    
+![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
 Screenshot of changes made in commit:
 
 ![Image](https://user-images.githubusercontent.com/79061216/149404740-201fe7fe-f7e6-435d-a5e8-fc8e390ebb32.png)     
