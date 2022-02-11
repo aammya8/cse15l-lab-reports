@@ -34,7 +34,23 @@ An example of this syntax that we will see later in this tutorial is `scp -r *.j
 
 **PART 2: COMPILING AND RUNNING JUNIT TESTS ON REMOTE SERVER**
 
-See below.    
+For reference, the markdown-parse directory contains the following files. The `lib` subdirectory contains the files `hamcrest-core-1.3.jar` and `junit-4.13.2.jar`:   
+```   
+lib
+MarkdownParse.java	
+MarkdownParseTest.java
+test-file.md
+test-file2.md
+test-file3.md
+test-file4.md
+test-file5.md
+test-file6.md
+test-file7.md
+test-file8.md
+test-file-a.md		
+test-file-b.md
+test-file-c.md   
+```   
 
 ![Image](https://user-images.githubusercontent.com/79061216/153681777-22440463-2502-4e0b-90f8-3dff8410b0da.png)          
 >`System.out.println("End of Part #2 Description.");`  
@@ -45,7 +61,7 @@ See below.
 
 **PART 3: COPY A WHOLE DIRECTORY AND RUN TESTS IN ONE LINE**
 
-The combined commands would be in the following format:   
+The combined commands for the markdown-parse directory example in this tutorial would be in the following format:   
 ```   
 scp -r *.java *.md lib/ cs15lwi22amt@ieng6.ucsd.edu:markdown-parse; ssh cs15lwi22amt@ieng6.ucsd.edu "cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"   
 ```   
