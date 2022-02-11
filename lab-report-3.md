@@ -36,7 +36,7 @@ An example of this syntax that we will see later in this tutorial is `scp -r *.j
 
 See below.    
 
-![Image]()          
+![Image](https://user-images.githubusercontent.com/79061216/153681777-22440463-2502-4e0b-90f8-3dff8410b0da.png)          
 >`System.out.println("End of Part #2 Description.");`  
  
 <br/><br/><br/><br/>
