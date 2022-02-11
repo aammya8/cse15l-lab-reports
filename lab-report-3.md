@@ -47,7 +47,7 @@ See below.
 
 See below.    
 
-![Image]()          
+![Image](https://user-images.githubusercontent.com/79061216/153683898-17eea0fc-b608-4299-84a0-ba28bb1d21c5.png)          
 >`System.out.println("End of Part #3 Description.");`  
  
 <br/><br/><br/>
