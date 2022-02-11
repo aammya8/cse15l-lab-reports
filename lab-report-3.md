@@ -49,7 +49,7 @@ The combined commands would be in the following format:
 ```   
 scp -r *.java *.md lib/ cs15lwi22amt@ieng6.ucsd.edu:markdown-parse; ssh cs15lwi22amt@ieng6.ucsd.edu "cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"   
 ```   
-However, if this gives you an error because the Java version on the remote server is different from the Java version on your machine, replace `javac` in the command above with ``, and replace `java` with ``. The modified command then looks like this:   
+However, if this gives you an error because the Java version on the remote server is different from the Java version on your machine, replace `javac` in the command above with `/software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac`, and replace `java` with `/software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java`. The modified command then looks like this:   
 ```   
 scp -r *.java *.md lib/ cs15lwi22amt@ieng6.ucsd.edu:markdown-parse; ssh cs15lwi22amt@ieng6.ucsd.edu "cd markdown-parse; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"   
 ```   
