@@ -17,7 +17,7 @@ There are a few different syntax to use the `scp -r` command.  To copy over ever
  
 In the command above, `-r` tells `scp` to copy recursively. The `.` is the source  (the current directory). The `~/DIRECTORY_NAME` tells `scp` to create a directory called DIRECTORY_NAME on the remote server, and then copy the contents of the current source directory recursively there. Note that if a directory called DIRECTORY_NAME already exists on the remote server, this `scp` command will overwrite that directory.   
 
-If you want to have more control over which files you want to copy to the remote server, you can also use the following syntax, where FILE_EXTENSION is the type of files you want to copy over (e.g. `java`, `txt`, `md`, etc), and SUBDIRECTORY is the name of the subdirectory you want to copy. Note than neither of these filters are mandatory fields:      
+If you want to have more control over which files you want to copy to the remote server, you can also use the following syntax, where FILE_EXTENSION is the type of files you want to copy over (e.g. `java`, `txt`, `md`, etc), and SUBDIRECTORY is the name of the subdirectory you want to copy. Note than neither of these filters are mandatory fields, and you can also add as many file extensions and subdirectories as you want (space-seperated):      
  
 
 `scp -r *.FILE_EXTENSION SUBDIRECTORY USERNAME@ieng6.ucsd.edu:REMOTE_DIRECTORY_NAME`   
