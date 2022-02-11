@@ -9,5 +9,7 @@
    
 **PART 1: COPYING A DIRECTORY TO A REMOTE SERVER USING SSH**
 
-There are a few different syntax to use the `scp -r` command.  To copy over everything in your local directory (not just all the files you see with `ls' but all the files in `.git' as well), use:  `scp -r . USERNAME@ieng6.ucsd.edu:~/DIRECTORY_NAME`, where 
+There are a few different syntax to use the `scp -r` command.  To copy over everything in your local directory (not just all the files you see with `ls' but all the files in `.git' as well), use the following syntax, with your CSE15L account username in place of USERNAME, and the name of the directory you want to copy in place of DIRECTORY_NAME:      
+ 
 
+`scp -r . USERNAME@ieng6.ucsd.edu:~/DIRECTORY_NAME`   
