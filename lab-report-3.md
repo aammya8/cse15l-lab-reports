@@ -28,6 +28,36 @@ An example of this syntax that we will see later in this tutorial is `scp -r *.j
 ![Image](https://user-images.githubusercontent.com/79061216/153679655-ae5b46f4-9c49-48df-bcbf-f649b131aa8e.png)          
 >`System.out.println("End of Part #1 Description.");`  
  
-<br/><br/><br/><br/>    
+<br/><br/><br/><br/>
 
+
+
+**PART 2: COMPILING AND RUNNING JUNIT TESTS ON REMOTE SERVER**
+
+See below.    
+
+![Image]()          
+>`System.out.println("End of Part #2 Description.");`  
+ 
+<br/><br/><br/><br/>
+
+
+
+**PART 3: COPY A WHOLE DIRECTORY AND RUN TESTS IN ONE LINE**
+
+See below.    
+
+![Image]()          
+>`System.out.println("End of Part #3 Description.");`  
+ 
+<br/><br/><br/>
+
+ 
+>`System.out.println("🎬 End.")`    
+
+\\( ͡╥ ͜ʖ ͡╥)/ 
+
+>`System.out.println("Finished.")`
+
+( ͡⊗ ͜ʖ ͡⊗) <br/><br/>
 
