@@ -23,4 +23,11 @@ If you want to have more control over which files you want to copy to the remote
 `scp -r *.FILE_EXTENSION SUBDIRECTORY USERNAME@ieng6.ucsd.edu:REMOTE_DIRECTORY_NAME`   
  
  
-An example of this syntax that we will see later in this tutorial is `scp -r *.java *.md lib/ cs15lwi22@ieng6.ucsd.edu:markdown-parse`. This will copy all java (`.java`) and markdown (`.md`) files in the current directory, along with the `lib` subdirectory, into the directory called `markdown-parse` on the remote server. Note that a directory called markdown-parse must already exist on the remote server for this to work. This syntax does not create any new directories on the remote server. It only copies the specified contents of the current directory into the directory (that already exists on the remote server) called REMOTE_DIRECTORY_NAME.
+An example of this syntax that we will see later in this tutorial is `scp -r *.java *.md lib/ cs15lwi22@ieng6.ucsd.edu:markdown-parse`. This will copy all java (`.java`) and markdown (`.md`) files in the current directory, along with the `lib` subdirectory, into the directory called `markdown-parse` on the remote server. Note that a directory called markdown-parse must already exist on the remote server for this to work. This syntax does not create any new directories on the remote server. It only copies the specified contents of the current directory into the directory (that already exists on the remote server) called REMOTE_DIRECTORY_NAME. (So if you don't have a directory called REMOTE_DIRECTORY_NAME in the remote server you will get an error).    
+
+![Image](https://user-images.githubusercontent.com/79061216/153679655-ae5b46f4-9c49-48df-bcbf-f649b131aa8e.png)          
+>`System.out.println("End of Part #1 Description.");`  
+ 
+<br/><br/><br/><br/>    
+
+
