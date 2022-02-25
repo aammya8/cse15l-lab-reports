@@ -16,7 +16,6 @@ Expected Output: ```[`google.com, google.com, ucsd.edu]```
 
 Code in `MarkdownParseTest.java` for JUnit Test:   
 ```
-
     @Test
     public void testSnippet1() throws IOException, NoSuchFileException {
         Path fileName = Path.of("snippet1.md");
