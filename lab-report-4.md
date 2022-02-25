@@ -46,7 +46,6 @@ Output of running test on MY implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet1(MarkdownParseTest)
 java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was:<[url.com, `google.com, google.com, ucsd.edu]>   
 ```   
  
@@ -57,7 +56,6 @@ Output of running test on REVIEWED implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet1(MarkdownParseTest)
 java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was:<[url.com, `google.com, google.com, ucsd.edu]>   
 ```   
  
@@ -96,7 +94,6 @@ Output of running test on MY implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet2(MarkdownParseTest)
 java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, b.com, a.com((, example.com]>   
 ```   
  
@@ -107,7 +104,6 @@ Output of running test on REVIEWED implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet2(MarkdownParseTest)
 java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, a.com((, example.com]>   
 ```   
  
@@ -144,7 +140,6 @@ Output of running test on MY implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet3(MarkdownParseTest)   
 java.lang.AssertionError: expected:<[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]> but was:<[
     https://www.twitter.com
 , 
@@ -167,7 +162,6 @@ Output of running test on REVIEWED implementation:
 
 Specific part of JUnit output that shows test failure (if applicable):   
 ```   
-1) testSnippet3(MarkdownParseTest)
 java.lang.AssertionError: expected:<[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]> but was:<[]>   
 ```   
  
