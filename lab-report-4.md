@@ -54,7 +54,20 @@ Do you think there is a small (<10 lines) code change that will make your progra
 Expected Output: `[a.com, a.com(()), example.com]`       
  
 
-Code in `MarkdownParseTest.java` for JUnit Test:      
+Code in `MarkdownParseTest.java` for JUnit Test:   
+```   
+    @Test
+    public void testSnippet2() throws IOException, NoSuchFileException {
+        Path fileName = Path.of("snippet2.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> actual_result = MarkdownParse.getLinks(contents);
+        List<String> expected_result = new ArrayList<>();
+        expected_result.add("a.com");
+        expected_result.add("a.com(())");
+        expected_result.add("example.com");
+        assertEquals(expected_result, actual_result);
+    }
+```   
  
 
 Output of running test on MY implementation:      
