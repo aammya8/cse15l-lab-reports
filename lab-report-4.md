@@ -92,9 +92,22 @@ Do you think there is a small (<10 lines) code change that will make your progra
 Expected Output: `[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`      
  
 
-Code in `MarkdownParseTest.java` for JUnit Test:      
- 
+Code in `MarkdownParseTest.java` for JUnit Test:   
+```
+    @Test
+    public void testSnippet3() throws IOException, NoSuchFileException {
+        Path fileName = Path.of("snippet3.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> actual_result = MarkdownParse.getLinks(contents);
+        List<String> expected_result = new ArrayList<>();
+        expected_result.add("https://www.twitter.com");
+        expected_result.add("https://ucsd-cse15l-w22.github.io/");
+        expected_result.add("https://cse.ucsd.edu/");
+        assertEquals(expected_result, actual_result);
+    }
+```   
 
+ 
 Output of running test on MY implementation:      
  
 
