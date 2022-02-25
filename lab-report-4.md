@@ -12,10 +12,10 @@
 
 **LINKS**
 
-My repo: [Link]()   
-Reviewed repo: [Link]() 
+[My repo](https://github.com/doraemon127/markdown-parse)   
+[Reviewed repo](https://github.com/CatFish47/markdown-parse) 
  
-<br/><br/><br/><br/>
+<br/><br/>
    
 
 
