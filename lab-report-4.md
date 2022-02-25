@@ -1,6 +1,8 @@
 ## Lab Report 4
 *For each snippet of code, add a test to both your implementation of markdown-parse and the implementation you reviewed. Run the tests and show the results of running the tests on each. This means you should add a total of 6 test methods (3 to each implementation).*   
 
+*Note, to get the expected output, I uploaded the snippets to GitHub as markdown file. I then saw which was links since they were colored blue in the preview. I then figured out what the link inside should be by clicking the blue links. e.g. I put the snippet files into a repo called `random`. Then when I clicked a link it redirected to `https://github.com/doraemon127/random/blob/main/ucsd.edu`, telling me that the read link was `ucsd.edu`*    
+
 *For each snippet below, you will find a description of the expected output, the code for the test, and the output for running the test on both implementation. There will then be a short explaination of if/how errors with tests for the 3 snippets can be fixed with a small change*  
  
 >`System.out.println("Start.🎙")`    
