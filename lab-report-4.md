@@ -47,7 +47,8 @@ Output of running test on MY implementation:
 Specific part of JUnit output that shows test failure (if applicable):      
  
 
-Output of running test on REVIEWED implementation:      
+Output of running test on REVIEWED implementation:   
+![Image]()      
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
@@ -81,13 +82,15 @@ Code in `MarkdownParseTest.java` for JUnit Test:
 ```   
  
 
-Output of running test on MY implementation:      
+Output of running test on MY implementation:   
+![Image]()
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
  
 
-Output of running test on REVIEWED implementation:      
+Output of running test on REVIEWED implementation:   
+![Image]()      
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
@@ -119,13 +122,15 @@ Code in `MarkdownParseTest.java` for JUnit Test:
 ```   
 
  
-Output of running test on MY implementation:      
+Output of running test on MY implementation:   
+![Image]()
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
  
 
-Output of running test on REVIEWED implementation:      
+Output of running test on REVIEWED implementation:   
+![Image]()      
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
