@@ -63,7 +63,7 @@ Do you think there is a small (<10 lines) code change that will make your progra
 
 **SNIPPET 3**
 
-Expected Output:      
+Expected Output: `[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`      
  
 
 Code in `MarkdownParseTest.java` for JUnit Test:      
