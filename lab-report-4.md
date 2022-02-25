@@ -40,7 +40,8 @@ Code in `MarkdownParseTest.java` for JUnit Test:
 ```   
 
  
-Output of running test on MY implementation:      
+Output of running test on MY implementation:   
+![Image](https://user-images.githubusercontent.com/79061216/155816256-622ddc95-160a-4556-8daf-8458523af271.png)
  
 
 Specific part of JUnit output that shows test failure (if applicable):      
