@@ -14,9 +14,23 @@
 Expected Output: ```[`google.com, google.com, ucsd.edu]```       
  
 
-Code in `MarkdownParseTest.java` for JUnit Test:      
- 
+Code in `MarkdownParseTest.java` for JUnit Test:   
+```
 
+    @Test
+    public void testSnippet1() throws IOException, NoSuchFileException {
+        Path fileName = Path.of("snippet1.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> actual_result = MarkdownParse.getLinks(contents);
+        List<String> expected_result = new ArrayList<>();
+        expected_result.add("`google.com");
+        expected_result.add("google.com");
+        expected_result.add("ucsd.edu");
+        assertEquals(expected_result, actual_result);
+    }
+```   
+
+ 
 Output of running test on MY implementation:      
  
 
