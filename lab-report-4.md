@@ -9,7 +9,7 @@
    
 **SNIPPET 1**
 
-Expected Output:      
+Expected Output: `[`google.com, google.com, ucsd.edu]`       
  
 
 Code in `MarkdownParseTest.java` for JUnit Test:      
