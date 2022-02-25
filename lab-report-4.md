@@ -44,7 +44,12 @@ Output of running test on MY implementation:
 ![Image](https://user-images.githubusercontent.com/79061216/155816256-622ddc95-160a-4556-8daf-8458523af271.png)
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet1(MarkdownParseTest)
+java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was:<[url.com, `google.com, google.com, ucsd.edu]>   
+```   
  
 
 Output of running test on REVIEWED implementation:   
@@ -86,7 +91,12 @@ Output of running test on MY implementation:
 ![Image](https://user-images.githubusercontent.com/79061216/155816383-b8a54436-39ee-443e-b668-d1dc1938e493.png)
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet2(MarkdownParseTest)
+java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, b.com, a.com((, example.com]>   
+```   
  
 
 Output of running test on REVIEWED implementation:   
@@ -126,7 +136,24 @@ Output of running test on MY implementation:
 ![Image](https://user-images.githubusercontent.com/79061216/155816431-753e638b-85a7-4627-b8ee-ad3b8e7e50e1.png)
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet3(MarkdownParseTest)   
+java.lang.AssertionError: expected:<[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]> but was:<[
+    https://www.twitter.com
+, 
+    https://ucsd-cse15l-w22.github.io/
+, github.com
+
+And there's still some more text after that.
+
+[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+
+
+
+]>   
+```   
  
 
 Output of running test on REVIEWED implementation:   
