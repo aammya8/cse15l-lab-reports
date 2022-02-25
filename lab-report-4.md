@@ -53,10 +53,15 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
  
 
 Output of running test on REVIEWED implementation:   
-![Image]()      
+![Image](https://user-images.githubusercontent.com/79061216/155817464-a6009379-0f0f-4572-8df9-365c5ee075ef.png)      
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet1(MarkdownParseTest)
+java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was:<[url.com, `google.com, google.com, ucsd.edu]>   
+```   
  
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change:          
@@ -100,10 +105,15 @@ java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a
  
 
 Output of running test on REVIEWED implementation:   
-![Image]()      
+![Image](https://user-images.githubusercontent.com/79061216/155817503-22206266-6d3d-40a2-bb4c-c09eb46f0a07.png)      
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet2(MarkdownParseTest)
+java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, a.com((, example.com]>   
+```   
  
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change:          
@@ -157,10 +167,15 @@ And there's still some more text after that.
  
 
 Output of running test on REVIEWED implementation:   
-![Image]()      
+![Image](https://user-images.githubusercontent.com/79061216/155817528-92eedafb-9742-4627-9d67-cc00430a9b85.png)      
  
 
-Specific part of JUnit output that shows test failure (if applicable):      
+Specific part of JUnit output that shows test failure (if applicable):   
+```   
+There was 1 failure:
+1) testSnippet3(MarkdownParseTest)
+java.lang.AssertionError: expected:<[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]> but was:<[]>   
+```   
  
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change:          
