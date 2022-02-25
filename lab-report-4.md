@@ -38,7 +38,7 @@ Do you think there is a small (<10 lines) code change that will make your progra
 
 **SNIPPET 2**
 
-Expected Output:      
+Expected Output: `[a.com, a.com(()), example.com]`       
  
 
 Code in `MarkdownParseTest.java` for JUnit Test:      
