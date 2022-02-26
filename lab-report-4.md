@@ -172,7 +172,7 @@ java.lang.AssertionError: expected:<[https://www.twitter.com, https://ucsd-cse15
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change:   
 * Looking at the output above, my program incorrectly assumes that the `url` string begins immediately after the `(` and that the `url` string ends immediately before the `)`. Thus, my program included the surrounding spaces in the "urls" for `https://www.twitter.com` and `https://ucsd-cse15l-w22.github.io/`. I think this can be fixed with a small (<10 line) change by adding checks for spaces (since they are invalid characters in any url). Looking at the output above, however, my program also incorrectly identified   
-* ```github.com
+```github.com
 
 And there's still some more text after that.
 
@@ -180,7 +180,7 @@ And there's still some more text after that.
 
 
 
-``` 
+```   
 as a link.
 
           
