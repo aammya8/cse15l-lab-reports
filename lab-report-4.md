@@ -61,7 +61,7 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
  <br/>
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change:   
-* Looking at the output above, my program correctly identified all the actual links, but it also identified `url.com` as a link inside ``` `[a link`](url.com) ```. This is not a correct link format. The ``` ` ``` takes precedence over the `[` since it comes first, so essentially this line of markdown code is `a link` plus the text ](url.com).
+* Looking at the output above, my program correctly identified all the actual links, but it also identified `url.com` as a link inside ``` `[a link`](url.com) ```. This is not a correct link format. The ``` ` ``` takes precedence over the `[` since it comes first, so essentially this line of markdown code is `a link` plus the text ](url.com). To fix this, I think an approach would be to check for the opening ``` ` ``` before the `[` and also find out where the closing ``` ` ``` is (e.g. before the `]`, or inside the parentheses). Note that if the entire link format `[link](url)` is within backticks, it still counts as a link. When dealing with backticks even beyond this one failed test, however, we also need to consider the situation where the opening backtick is within `[link]` and the closing backtick is after the `)`. In that case, the text inside the parentheses would not be considered a link. Thus, if taking this approach, however, I think it is a more involved change. 
 
 >`System.out.println("End of Snippet #1 Description.");`  
  
