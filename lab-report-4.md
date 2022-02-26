@@ -181,7 +181,7 @@ And there's still some more text after that.
 
 
 ```   
-as a link.
+* as a single link, where in reality the only link there is `https://cse.ucsd.edu/` and `github.com` should NOT be counted as a link. This is because my program doesn't stop storing a url string until a closing parentheses is found. I think, for this specific test case where the two "links" are seperated by new lines, it's a small (<10 lines) change. In addition to the check for spaces above, another condition (similar to the spaces check) should be added to check for the `\n`.
 
           
 >`System.out.println("End of Snippet #3 Description.");`  
