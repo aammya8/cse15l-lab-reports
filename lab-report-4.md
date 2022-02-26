@@ -106,7 +106,7 @@ Specific part of JUnit output that shows test failure (if applicable):
 ```   
 java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, a.com((, example.com]>   
 ```   
- 
+ <br/>
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change:          
 >`System.out.println("End of Snippet #2 Description.");`  
