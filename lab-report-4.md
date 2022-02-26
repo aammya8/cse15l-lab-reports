@@ -110,7 +110,9 @@ java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a
 ```   
  <br/>
 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change:          
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change:   
+* Looking at the output above, my program identified `a.com((` as a link inside `[a nested parenthesized url](a.com(()))` instead of the actual link, `a.com(())`. This is because my code stops storing the url string once the first closing parentheses `)` appears. Since in this specific test case, the parentheses are in pairs (there's an outer pair and inner pair in the url, plus the actual outer outer parentheses holding the url), an approach could be to go to the last closing parentheses `)` and work backwards to find the pairs, and everything inside the outer outer parentheses in the `[link](url)` format is stored as the url.   
+*          
 >`System.out.println("End of Snippet #2 Description.");`  
  
 <br/><br/><br/><br/>
