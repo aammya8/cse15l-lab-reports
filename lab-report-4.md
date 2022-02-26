@@ -5,14 +5,14 @@
 
 *Note, to get the expected output, I uploaded the snippets to GitHub as markdown file. I then saw which was links since they were colored blue in the preview. I then figured out what the link inside should be by clicking the blue links. e.g. I put the snippet files into a repo called `random`. Then when I clicked a link it redirected to `https://github.com/doraemon127/random/blob/main/ucsd.edu`, telling me that the read link was `ucsd.edu`*    
 
->`System.out.println("Start.🎙")`    
-
 **LINKS**
 
 [My repo](https://github.com/doraemon127/markdown-parse)   
 [Reviewed repo](https://github.com/CatFish47/markdown-parse) 
  
 <br/>   
+>`System.out.println("Start.🎙")`    
+  
 \\( ͡❛ ₒ ͡❛)/ <br/><br/><br/>
 
 
