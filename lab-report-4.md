@@ -7,6 +7,12 @@
 
 >`System.out.println("Start.🎙")`    
 
+**LINKS**
+
+[My repo](https://github.com/doraemon127/markdown-parse)   
+[Reviewed repo](https://github.com/CatFish47/markdown-parse) 
+ 
+<br/>   
 \\( ͡❛ ₒ ͡❛)/ <br/><br/><br/>
 
 
