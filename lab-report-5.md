@@ -24,7 +24,7 @@
 * Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
 *Correct implementation*:   
-* Add text here  
+* Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[url]``` as a link.  
 
 *Bug in incorrect implementation*:   
 * Add text here    
