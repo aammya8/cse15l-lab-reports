@@ -41,19 +41,19 @@
 
 **🚨🚨🚨🚨🚨  TEST 2  🚨🚨🚨🚨🚨**
 
-*Test file*:      
+*Test file*: 342.md      
 ``` 
-   
+[not a `link](/foo`)   
 ```   
-*Expected output*:    
-*Output of my implementation*:   
-*Output of provided implementation*:   
+*Expected output*: `[]`    
+*Output of my implementation*: `[]`   
+*Output of provided implementation*: ```[/foo`]```   
 
 *How I found different result*: 
 * Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
 *Correct implementation*:   
-* Add text here  
+* Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
 
 *Bug in incorrect implementation*:   
 * Add text here    
