@@ -17,7 +17,7 @@
 *Expected output*:    
 *Output of my implementation*:   
 *Output of provided implementation*:   
-*How I found different result*: `diff`   
+*How I found different result*: put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 *Correct implementation*:   
 * Add text here  
 
@@ -43,7 +43,7 @@
 *Expected output*:    
 *Output of my implementation*:   
 *Output of provided implementation*:   
-*How I found different result*: `diff`   
+*How I found different result*: put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 *Correct implementation*:   
 * Add text here  
 
