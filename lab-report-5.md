@@ -10,13 +10,15 @@
 
 **🤓🤓🤓🤓🤓  TEST 1  🤓🤓🤓🤓🤓**
 
-*Test file*:      
+*Test file*: 194.md      
 ``` 
-   
+[Foo*bar\]]:my_(url) 'title (with parens)'
+
+[Foo*bar\]]
 ```   
-*Expected output*:    
-*Output of my implementation*:   
-*Output of provided implementation*:   
+*Expected output*: ```[]```   
+*Output of my implementation*: ```[]```   
+*Output of provided implementation*: ```[url]```   
 
 *How I found different result*: 
 * Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
