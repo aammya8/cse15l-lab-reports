@@ -27,11 +27,15 @@
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[baz]``` as a link.  
 
 **Bug in incorrect implementation**:   
-* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `baz` should not be identified as a link because (1) there's superfluous text/space (`: <bar>`) between the closing bracket `]` and the opening parentheses `(`. **finish**     
+* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `baz` should not be identified as a link because (1) there's superfluous text/space (`: <bar>`) between the closing bracket `]` and the opening parentheses `(`. **finish  talk about adding checks/if statements around the code below**     
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
-   
+String potentialLink = markdown.substring(openParen + 1, closeParen).trim();
+if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
+      toReturn.add(potentialLink);
+      currentIndex = closeParen + 1;
+}    
 ```  
  
 
@@ -60,7 +64,7 @@
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
-   
+  
 ```  
  
 
