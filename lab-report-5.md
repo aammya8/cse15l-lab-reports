@@ -60,11 +60,14 @@ if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
 
 **Bug in incorrect implementation**:   
-* Add text here    
+* Add text here **add variable to check for backtick below (if backtick is -1), also check if backtick is >openbracket or somethnig**    
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
-  
+            if(nextOpenBracket == -1 || nextCloseBracket == -1
+                  || closeParen == -1 || openParen == -1) {
+                return toReturn;
+            }
 ```  
  
 
