@@ -21,7 +21,7 @@
 **Output of provided implementation**: ```[baz]```   
 
 **How I found different result**: 
-* Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
+* Ran a bash for loop and put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
 **Correct implementation**:   
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[baz]``` as a link.  
@@ -54,7 +54,7 @@ if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
 **Output of provided implementation**: ```[/foo`]```   
 
 **How I found different result**: 
-* Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
+* Ran a bash for loop and put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
 **Correct implementation**:   
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
