@@ -19,7 +19,7 @@
 *Output of provided implementation*:   
 *How I found different result*: `diff`   
 *Correct implementation*:   
-* Add text here    
+* Add text here  
 *Bug in incorrect implementation*:   
 * Add text here    
 *Code in incorrect implementation that should be fixed*:   
