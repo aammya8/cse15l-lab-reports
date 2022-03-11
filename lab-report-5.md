@@ -27,7 +27,7 @@
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[baz]``` as a link.  
 
 **Bug in incorrect implementation**:   
-* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `baz` should not be identified as a link because (1) there's superfluous text/space (`: <bar>`) between the closing bracket `]` and the opening parentheses `(`. **finish  talk about adding checks/if statements around the code below**     
+* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `baz` should not be identified as a link because (1) there's superfluous text/space (`: <bar>`) between the closing bracket `]` and the opening parentheses `(`, and (2) `baz` is not an actual valid url. In the current program, as long as the `[`, `]`, `(`, and `)` are all found, the potential link inside the parentheses `()` is added to the ArrayList of links. Below I have copy-pasted the code simply adds the potential link. To improve the program to make it produce the correct output for this test file, to address issue (1) described earlier, the snippet of code below should be surrounded by an if statement that checks whether `openParen = nextCloseBracket + 1`. This addition would check to make sure that the open parentheses is immediately after the close bracket (`](`). As for problem (2), the fact that `baz` isn't even a url, some more forms of link validation should be added to this code. Currently, in the line `if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1)` of the code below, the program only checks to make sure that there is no space or newline character before adding the potential link to the ArrayList of links.  **finish  talk about adding checks/if statements around the code below**     
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
@@ -64,10 +64,10 @@ if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
-            if(nextOpenBracket == -1 || nextCloseBracket == -1
-                  || closeParen == -1 || openParen == -1) {
-                return toReturn;
-            }
+if(nextOpenBracket == -1 || nextCloseBracket == -1
+  || closeParen == -1 || openParen == -1) {
+        return toReturn;
+}
 ```  
  
 
