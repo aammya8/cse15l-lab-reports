@@ -16,20 +16,20 @@
 
 [foo]
 ```   
-*Expected output*: ```[]```   
-*Output of my implementation*: ```[]```   
-*Output of provided implementation*: ```[baz]```   
+**Expected output**: ```[]```   
+**Output of my implementation**: ```[]```   
+**Output of provided implementation**: ```[baz]```   
 
-*How I found different result*: 
+**How I found different result**: 
 * Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
-*Correct implementation*:   
+**Correct implementation**:   
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[baz]``` as a link.  
 
-*Bug in incorrect implementation*:   
+**Bug in incorrect implementation**:   
 * To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `baz` should not be identified as a link because (1) there's superfluous text/space (`: <bar>`) between the closing bracket `]` and the opening parentheses `(`. **finish**     
  
-*Code in incorrect implementation that should be fixed*:   
+**Code in incorrect implementation that should be fixed**:   
 ```   
    
 ```  
@@ -41,24 +41,24 @@
 
 **🚨🚨🚨🚨🚨  TEST 2  🚨🚨🚨🚨🚨**
 
-*Test file*: 342.md      
+**Test file**: 342.md      
 ``` 
 [not a `link](/foo`)   
 ```   
-*Expected output*: `[]`    
-*Output of my implementation*: `[]`   
-*Output of provided implementation*: ```[/foo`]```   
+**Expected output**: `[]`    
+**Output of my implementation**: `[]`   
+**Output of provided implementation**: ```[/foo`]```   
 
-*How I found different result*: 
+**How I found different result**: 
 * Put results from my implementation and provided implementation into seperate `txt` files and used `diff`   
 
-*Correct implementation*:   
+**Correct implementation**:   
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
 
-*Bug in incorrect implementation*:   
+**Bug in incorrect implementation**:   
 * Add text here    
  
-*Code in incorrect implementation that should be fixed*:   
+**Code in incorrect implementation that should be fixed**:   
 ```   
    
 ```  
