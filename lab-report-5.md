@@ -11,11 +11,11 @@
 
 **TEST 1**
 
-Test File:      
+*Test file*:      
 ``` 
    
 ```   
-Expected output:    
+*Expected output*:    
 Output of my implementation:   
 Output of provided implementation:   
 How I found different result: `diff`   
