@@ -27,7 +27,7 @@
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[url]``` as a link.  
 
 *Bug in incorrect implementation*:   
-* Add text here    
+* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that `url` should not be identified as a link because (1) there's superfluous text (`:my_`) between the closing bracket `]` and the opening parentheses `(`     
  
 *Code in incorrect implementation that should be fixed*:   
 ```   
