@@ -60,7 +60,7 @@ if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
 
 **Bug in incorrect implementation**:   
-* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that ```/foo\```` should not be identified as a link because in ```[not a \`link]``` **add variable to check for backtick below (if backtick is -1), also check if backtick is >openbracket or somethnig**    
+* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that ``/foo``` should not be identified as a link because in ``[not a `link]`` **add variable to check for backtick below (if backtick is -1), also check if backtick is >openbracket or somethnig**    
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
