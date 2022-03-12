@@ -60,14 +60,20 @@ if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
 * Based on the expected and actual outputs above, my implementation is correct. The provided implementation INCORRECTLY identifies ```[/foo`]``` as a link.  
 
 **Bug in incorrect implementation**:   
-* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that ``` /foo` ``` should not be identified as a link because in ``[not a `link]`` the opening backtick ``` ` ``` comes before the closing bracket `]`. This means that the backtick (code block) takes precedence over the closing bracket (link format), so it's actualy code wrapped in text:  [not a `link](/foo`). The issue in the program is that the program never checks for backticks. **add variable to check for backtick below (if backtick is -1), also check if backtick is >openbracket or somethnig**    
+* To find the bug in the provided implementation, we need to look at the `getLinks` method with the method signature ```public static ArrayList<String> getLinks(String markdown) {}```. If we look at the contents of the test file above, we can see that ``` /foo` ``` should not be identified as a link because in ``[not a `link]`` the opening backtick ``` ` ``` comes before the closing bracket `]`. This means that the backtick (code block) takes precedence over the closing bracket (link format), so it's actualy code wrapped in text:  [not a `link](/foo`). The issue in the program making this specific test case fail is that the program never checks for SINGULAR backticks inside the `[` and `)`. As we can see in the snippet of code below, the program does check for code BLOCKS (indicated by THREE backticks), but it never checks for SINGULAR backticks. Even the code for checking for code blocks is flawed since in the line `if(nextCodeBlock < nextOpenBracket && nextCodeBlock != -1)` the program doesn't consider the possibility of the code block starting after the `nextOpenBracket` but before the `closeParen`. To fix this, a variable called `nextCodeLine` should be added to track singular backticks, and more conditions should be added to an if-statement to `continue` if the `nextCodeLine` and/or `nextCodeBlock` start in between the `nextOpenBracket` and `closeParen` (Note the structure of the code will have to be modified so that `closeParen` is calculated before the if-statement.
  
 **Code in incorrect implementation that should be fixed**:   
 ```   
-if(nextOpenBracket == -1 || nextCloseBracket == -1
-  || closeParen == -1 || openParen == -1) {
-        return toReturn;
+int nextOpenBracket = markdown.indexOf("[", currentIndex);
+int nextCodeBlock = markdown.indexOf("\n```");
+if(nextCodeBlock < nextOpenBracket && nextCodeBlock != -1) {
+    int endOfCodeBlock = markdown.indexOf("\n```");
+    currentIndex = endOfCodeBlock + 1;
+    continue;
 }
+int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+int openParen = markdown.indexOf("(", nextCloseBracket);
+int closeParen = findCloseParen(markdown, openParen);
 ```  
  
 
